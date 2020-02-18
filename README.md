@@ -16,6 +16,6 @@ This script takes a Fiddler SAZ trace and converts it into a simpler text-only f
         request 008 from=14:38:28.332092 to=14:38:28.347691 duration=     15.599 ms CONNECT srvxxxxxxxx
         ....
 
-a simple "sort -n -r -k 6 output.txt | head -20" tells you what the top 20 of the recorded requests.
+A simple "sort -n -r -k 6 output.txt | head -20" tells you what the top 20 of the recorded requests.
 
 I hope you find it as useful in problem determination as several of my support colleagues did.
