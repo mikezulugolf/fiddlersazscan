@@ -19,3 +19,8 @@ This script takes a Fiddler SAZ trace and converts it into a simpler text-only f
 A simple "sort -n -r -k 6 output.txt | head -20" tells you what the top 20 of the recorded requests.
 
 I hope you find it as useful in problem determination as several of my support colleagues did.
+
+
+# fiddlersazscan2html
+## Purpose
+as above, but produces HTML output
